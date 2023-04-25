@@ -35,7 +35,7 @@ namespace TestProject1
             ListaAlumnos.AddLast(p2);
             ListaAlumnos.AddLast(p3);
 
-            //Utilizacion merodo Find() y AddBefore()
+            //Utilizacion metodo Find() y AddBefore()
             var nodo = ListaAlumnos.Find(p2);
             var nuevoAlumno = new Alumno("Lucia", "Ciencias Exactas", "Regular", 20);
             ListaAlumnos.AddBefore(nodo, nuevoAlumno);
